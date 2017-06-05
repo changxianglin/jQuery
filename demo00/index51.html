@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+
+<script src = 'jquery-3.2.1.js'></script>
+<script>
+$(function() {
+//     $("#btn").click(function() {
+//         alert('Hello')
+//     })
+// })
+// document.getElementById('btn').onclick = function() {
+//     alert('Heeloooo')
+// }
+// $(document.getElementById('btn')).click(function() {
+//     alert('enheng')
+// })
+    $("#btn")[0].onclick = function() {
+        alert('click button')
+    }
+})
+</script>
+</head>
+
+<body>
+<input type="button" name="" value="按钮" id="btn">
+</body>
+</html>
